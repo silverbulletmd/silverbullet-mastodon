@@ -31,7 +31,7 @@ To create a new toot, just create an empty page (with any name) and in the front
 
 ```
 ---
-$share: mastodon:youraccount
+$share: mastodon:myuser
 ---
 ```
 
@@ -41,8 +41,9 @@ To create a "toot storm" (a series of toots, threaded together) simply separate 
 
 ```
 ---
-$share: mastodon:youraccount
+$share: mastodon:myuser
 ---
+
 Toot 1
 
 ---
@@ -56,7 +57,7 @@ Toot 3
 
 Note the use of new lines for the horizontal rules to work correctly. Then simply {[Share: Publish]} again to publish (or update) them.
 
-## Build
+## Development
 To build this plug, make sure you have [SilverBullet installed](https://silverbullet.md/Install). Then, build the plug with:
 
 ```shell
