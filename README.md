@@ -35,7 +35,7 @@ $share: mastodon:myuser
 ---
 ```
 
-After this, just write your text and run {[Share: Publish]} to post it. This will automatically inject a named reference with the toot ID so you can make changes to it.
+After this, just write your text and run {[Share: Publish]} to post it. This will automatically inject a named anchor with the toot ID so you can make changes to it.
 
 To create a "toot storm" (a series of toots, threaded together) simply separate them with a horizontal rule (`---`). For instance:
 
