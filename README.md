@@ -2,6 +2,14 @@
 
 This plug enables posting to Mastodon via SilverBullet.
 
+
+## Installation
+Run {[Plug: Add]} and add the following URL:
+
+```
+- github:silverbulletmd/silverbullet-mastodon/mastodon.plug.js
+```
+
 ## Configuration
 To use this plug you need to configure it in two places. In your [[SETTINGS]] page, configure your Mastodon accounts:
 
@@ -77,10 +85,3 @@ deno task build && cp *.plug.js /my/space/_plug/
 ```
 
 SilverBullet will automatically sync and load the new version of the plug (or speed up this process by running the {[Sync: Now]} command).
-
-## Installation
-Run {[Plug: Add]} and add the following URL:
-
-```
-- github:silverbulletmd/silverbullet-mastodon/mastodon.plug.js
-```
