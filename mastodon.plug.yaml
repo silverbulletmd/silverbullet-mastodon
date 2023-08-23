@@ -1,0 +1,18 @@
+name: mastodon
+requiredPermissions:
+- fetch
+functions:
+  pullAllStatusesCommand:
+    path: mastodon.ts:pullAllStatusesCommand
+    command:
+      name: "Mastodon: Pull All Statuses"
+
+  cleanAllStatusesCommand:
+    path: mastodon.ts:cleanAllStatusesCommand
+    command:
+      name: "Mastodon: Clean All Statuses"
+
+  updateToot:
+    path: mastodon.ts:updateToot
+    events:
+      - share:mastodon

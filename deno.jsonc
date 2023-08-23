@@ -1,8 +1,9 @@
 {
   "importMap": "import_map.json",
   "tasks": {
-    "build": "silverbullet plug:compile hello.plug.yaml",
-    "watch": "silverbullet plug:compile hello.plug.yaml -w"
+    "build": "silverbullet plug:compile mastodon.plug.yaml",
+    "watch": "silverbullet plug:compile mastodon.plug.yaml -w=1",
+    "test": "deno test -A"
   },
   "lint": {
     "rules": {
